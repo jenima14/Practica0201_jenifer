@@ -1,0 +1,8 @@
+nombre_completo = input("Por favor, ingresa tu nombre completo: ")
+nombre_min = nombre_completo.lower()
+print("Nombre completo en minúsculas:", nombre_min)
+nombre_may = nombre_completo.upper()
+print("Nombre completo en mayúsculas:", nombre_may)
+nombre_prim_may = nombre_completo.title()
+print("Nombre completo con la primera letra de cada palabra en mayúscula:", nombre_prim_may)
+input()
